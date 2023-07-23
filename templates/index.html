@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Medical Postpartum Care</title>
+    <!-- Include Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Custom CSS -->
+    <style>
+        /* Style for chat container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Style for chat messages */
+        .chat-message {
+            margin-bottom: 20px;
+        }
+
+        /* Style for user message */
+        .user-message {
+            background-color: #007bff;
+            color: white;
+            border-radius: 10px;
+            padding: 10px 15px;
+            max-width: 70%;
+            align-self: flex-start;
+        }
+
+        /* Style for bot message */
+        .bot-message {
+            background-color: #605a5a;
+            border-radius: 10px;
+            padding: 10px 15px;
+            max-width: 70%;
+            align-self: flex-end;
+        }
+
+        /* Style for chat form */
+        #chat-form {
+            margin-top: 20px;
+        }
+
+        #input-text {
+            width: 70%;
+        }
+
+        /* Style for send button */
+        .btn-send {
+            background-color: #007bff;
+            color: white;
+        }
+
+        /* Style for reset button */
+        .btn-reset {
+            background-color: #e0e0e0;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Medical Postpartum Care</h1>
+    {% if history %}
+    <!-- Chat history -->
+    <div id="history">
+        {% for message in history[1:] %}
+            <div class="chat-message">
+                {% if loop.index % 2 == 0 %}
+                    <div class="bot-message">{{ message }}</div>
+                {% else %}
+                    <div class="user-message">{{ message }}</div>
+                {% endif %}
+            </div>
+        {% endfor %}
+    </div>
+
+    <!-- Chat form -->
+    <form id="chat-form" method="post" action="/chat">
+        <div class="input-field col s9">
+            <input id="input-text" name="input_text" type="text" class="validate">
+            <label for="input-text">Type your message</label>
+        </div>
+        <div class="col s3">
+            <button type="submit" class="btn btn-send">Send</button>
+        </div>
+    </form>
+
+    <!-- Reset button -->
+    <form id="reset-form" method="post" action="/reset">
+        <button type="submit" class="btn btn-reset">Reset</button>
+    </form>
+    {% endif %}
+</div>
+
+<!-- Include Materialize JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<!-- Initialize Materialize components -->
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        M.AutoInit();
+    });
+</script>
+</body>
+</html>
