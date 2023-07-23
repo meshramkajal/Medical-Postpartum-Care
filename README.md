@@ -1,23 +1,57 @@
-Postpartum care refers to the medical attention and support provided to a woman after childbirth to ensure her physical and emotional well-being during the postpartum period, which typically lasts six weeks after delivery. This period is crucial as the body undergoes significant changes following pregnancy and childbirth. Here are some key aspects of medical postpartum care:
+# Project: Medical Postpartum Care AI Bot
+• Develop and optimize large language models (LLM) for Postpartum, Anxiety and Stress
+• Develop and optimize ChatGPT/OpenAI/Text Generative models for conversational AI systems.
+Utilize prompt/instruction tuning techniques to improve the performance of LLMs.
+• Utilize one-shot/few-shot learning techniques to enhance the capabilities of LLMs.
+• Conduct thorough analysis and experimentation to optimize prompts and enhance AI model
+performance.
+• Develop and maintain code for LLM development and optimization using Python Programming.
 
-Monitoring Physical Recovery: Healthcare providers assess the mother's recovery from childbirth, including vaginal or cesarean birth incision healing, uterine contractions, and overall physical well-being. They may also check for signs of potential complications, such as postpartum hemorrhage or infection.
+## TASK to be done:
+1) Create a chatbot pipeline with Open AI endpoint
+2) Play with the different type & techniques of prompts for the Scenario given below.
 
-Vital Sign Monitoring: Regular monitoring of blood pressure, heart rate, and temperature is essential to identify any abnormalities that may occur during the postpartum period.
+## TYPE & TECHNIQUE OF PROMPTS:
+Eventually the different format and type of prompt to be must tried out are given below:
+1)How to prompts for a domain (E.g: Medical Postpartum care/Anxiety )
+Try different prompts such as:
+o Open ended
+o Instruction
+o Multiple Choice
+o Fill in the blank
+o Binary
+o Ordering
+o Prediction
+o Explanation
+o Opinion
+o Scenario
+o Comparative
+2) Prompting Techniques
+• Role play (eg Acting as a [ROLE] perform a [TASK] in the required [FORMAT]
+• Chained
+• Linked
+• Tree of thought
+• Instructional
+• Add Examples
+• Style (Formal, informal, Persuasive, Descriptive, Humorous, narrative, Inspirational)
+• Temperature
+3)Avoiding Plagiarism with ChatGPT
+• Method to detect.
+• Adjust the writing style
+Scenario to Consider: POSTPARTUM Care, Detection Emotional Features, Create avatars to express the user emotions, etc.
+Here is scenario example.
 
-Breastfeeding Support: Healthcare professionals provide guidance and assistance with breastfeeding techniques to ensure proper latch, positioning, and milk supply. They can also address any breastfeeding challenges the mother may encounter.
+### Example Questions:
+• What is postpartum depression? What are the signs and symptoms?
+• What should I do to help prevent post-delivery infections?
+• What should I do to prevent deep vein thrombosis?
+• What activities are safe to do in the first few days? Which activities should I avoid?
+• Are there certain foods or beverages I should avoid when breastfeeding?
 
-Pain Management: For women who experienced vaginal tears, episiotomies, or cesarean sections, appropriate pain management is offered to alleviate discomfort and promote healing.
-
-Emotional Well-being: Postpartum care includes addressing the mother's emotional health. Providers look for signs of postpartum depression or anxiety and offer support or referrals for mental health services if needed.
-
-Nutrition and Hydration: Proper nutrition and hydration are essential for a new mother's recovery and breastfeeding success. Healthcare providers may offer dietary advice and encourage adequate fluid intake.
-
-Pelvic Floor Exercises: Women are often encouraged to perform pelvic floor exercises to help tone and strengthen the muscles that support the pelvic organs and aid in postpartum recovery.
-
-Birth Control Options: Discussion of birth control methods is an essential part of postpartum care, allowing the mother to make informed choices about family planning.
-
-Follow-up Appointments: Healthcare providers schedule postpartum check-ups to assess the mother's progress and address any concerns that may have arisen since childbirth.
-
-Education and Support: New mothers are educated about postpartum self-care and provided with resources and support groups to help them adjust to the challenges of motherhood.
-
-Remember, postpartum care is not only about physical healing but also about providing emotional support during this transformative time in a woman's life. Early and attentive postpartum care can contribute to the well-being of both the mother and the newborn.
+### Problems:
+• Physical recovery from birth.
+• Sexuality, contraception, and birth spacing.
+• Mood and emotional well-being.
+• Infant care and feeding.
+• Sleep and fatigue.
+• Ongoing preventive health maintenance. • Exercise
